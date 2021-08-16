@@ -36,4 +36,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Require de autênticação
 require __DIR__.'/auth.php';
